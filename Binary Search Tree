@@ -1,0 +1,12 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları:
+
+root 7'dir.
+5, root olan 7'nin soluna yerleştirilir
+1, 5'in soluna yerleştirilir
+8, root olan 7'nin sağına yerleştirilir
+3, 5'in sağına yerleştirilir
+6, 5'in sağına yerleştirilir
+0, 5'in soluna yerleştirilir
+9, root olan 7'nin sağına yerleştirilir
+4, 5'in sağına yerleştirilir. 5'in sağı 6'nın solu 4'tür.
+2, 5'in soluna yerleştirilir. 1'in sağı 3'ün solu 2'dir.
