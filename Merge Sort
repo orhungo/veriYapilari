@@ -1,0 +1,23 @@
+Merge Sort'a göre dizi [16, 21, 11, 8, 12, 22] aşamaları:
+
+[16, 21, 11] ve [8, 12, 22] olarak ikiye ayırırız.
+[16, 21, 11] için:
+[16, 21] ve [11] olacak şekilde tekrar ayrılır.
+[16] ve [21] sıralanır.
+[11] tek eleman olduğu için bir işlem yok.
+Sıralı alt diziler birleştirilir: [11, 16, 21]
+
+[8, 12, 22] için:
+[8, 12] ve [22] olacak şekilde ayrılır.
+[8] ve [12] sıralanır.
+[22] tek eleman olduğu için işlem yok.
+Sıralı alt diziler birleştirilir: [8, 12, 22]
+Ana diziler birleştirilince: [8, 11, 12, 16, 21, 22] sonucu ortaya çıkar
+
+Big-O gösterimi: O(n log n) dir.
+
+
+
+
+
+
